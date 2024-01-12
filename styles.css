@@ -1,0 +1,25 @@
+body{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;;
+  background-color: #FFF7E8;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+h3{
+  font-weight: normal ;
+}
+#photo img{
+  width: 40%;
+
+}
+.contactIcons a{
+color: red;
+}
