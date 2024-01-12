@@ -23,6 +23,9 @@ h3{
   width: 40%;
 
 }
-.contactIcons a{
-color: red;
+#contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
