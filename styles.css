@@ -7,6 +7,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 5px;
 }
 a{
   color: black;
@@ -16,16 +17,37 @@ a{
 a:hover{
   opacity:40% ;
 }
-h3{
+h3, h1{
   font-weight: normal ;
 }
-#photo img{
-  width: 40%;
 
-}
 #contact{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 30px;
 
+}
+#main{
+  display: flex;
+  justify-content: space-between;
+}
+#main > *{
+  flex: 1;
+  margin: 5px;
+}
+#photo img{
+  width: 100%;
+  opacity: 80%;
+}
+#about{
+  background-color: #6F95A4;
+  color: #FFF7E8;
+  text-align: center;
+   padding: 5px;
+   line-height: 1.6rem;
+}
+#projects {
+  background-color: #D4BF87;
+   padding: 5px;
 }
