@@ -35,10 +35,14 @@ h3, h1{
   flex: 1;
   margin: 5px;
 }
+#photo img, #about, #resume{
+border-radius: .4rem;
+}
 #photo img{
   width: 100%;
   height: 100%;
   opacity: 80%;
+
 }
 
 #about, #resume{
