@@ -35,13 +35,23 @@ h3, h1{
   flex: 1;
   margin: 5px;
 }
-#photo img, #about, #resume{
+#photo img, #about, #resume, #photo-container{
 border-radius: .4rem;
 }
 #photo img{
   width: 100%;
-  height: 100%;
+  height: 80%;
   opacity: 80%;
+  max-width: 100%;
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+
+}
+#photo-container{
+  background-color: #6E9B7E;
+  opacity: 80%;
+  position: relative;
 
 }
 
