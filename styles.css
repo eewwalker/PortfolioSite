@@ -50,12 +50,13 @@ h3, h1{
 #resume {
   background-color: #D4BF87;
   font-weight:1.4rem;
+  color: #2c5449;
 
 }
 #about{
   background-color: #6F95A4;
 }
 #resume a{
-  color:#FFF7E8;
+  color:#2c5449;
   padding: 0;
 }
